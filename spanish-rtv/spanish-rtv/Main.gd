@@ -3,13 +3,11 @@ extends Node
 const FILE_PATH  = "res://spanish-rtv/translations/spanish.json"
 
 # Defaults
-const DEF_ENABLED  = true
-const DEF_FALLBACK = "Original"
+const DEF_ENABLED = true
 
-# Estado 
+# Estado
 var _translations : Dictionary = {}
-var _enabled      : bool   = DEF_ENABLED
-var _fallback     : String = DEF_FALLBACK
+var _enabled      : bool = DEF_ENABLED
 
 # Timers 
 var _scan_timer : float = 0.0
@@ -66,13 +64,11 @@ func _load_and_apply() -> void:
 		apply_from_config(cfg)
 	else:
 		# Sin MCM: aplicar con defaults
-		_enabled  = DEF_ENABLED
-		_fallback = DEF_FALLBACK
+		_enabled = DEF_ENABLED
 		_apply_all()
 
 func apply_from_config(cfg: ConfigFile) -> void:
-	_enabled  = _get(cfg, "Bool",     "enabled",  DEF_ENABLED)
-	_fallback = _get(cfg, "Dropdown", "fallback",  DEF_FALLBACK)
+	_enabled = _get(cfg, "Bool", "enabled", DEF_ENABLED)
 	_apply_all()
 
 func _get(cfg: ConfigFile, section: String, key: String, default):
@@ -119,10 +115,6 @@ func _patch_node(node: Node) -> void:
 		if _enabled:
 			if _translations.has(source):
 				node.text = _translations[source]
-			# si no hay traducción, dejamos el original (fallback "Original")
-			# o limpiamos si el usuario eligió "Vacío"
-			elif _fallback == "Vacío" and node.has_meta(META_KEY):
-				node.text = ""
 		else:
 			# restaurar original al desactivar
 			if node.has_meta(META_KEY):

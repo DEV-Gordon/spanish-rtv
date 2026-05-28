@@ -15,17 +15,6 @@ func _ready():
 		"value"   = true,
 	})
 
-	_config.set_value("Dropdown", "fallback", {
-		"name"    = "Texto sin traducir",
-		"tooltip" = "Qué mostrar cuando una cadena no tiene traducción",
-		"default" = "Original",
-		"value"   = "Original",
-		"options" = {
-			"Original": "Original",
-			"Vacío":    "Vacío",
-		}
-	})
-
 	if !FileAccess.file_exists(FILE_PATH + "/config.ini"):
 		DirAccess.open("user://").make_dir(FILE_PATH)
 		_config.save(FILE_PATH + "/config.ini")
