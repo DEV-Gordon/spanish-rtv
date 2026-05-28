@@ -28,7 +28,7 @@
   "9x19": "9x19",
   "9x39": "9x39",
   "A capacity value (kg) of all equipment items.": "Valor de capacidad de peso (kg) de todos los equipos.",
-    "A clothing-based thermal protection value against cold.\n\nInsulation is linked to Body Temp vital, where Insulation reduces Body Temp decrease speed in Winter.\n\nInsulation increases when you equip clothing items with a positive insulation stat.\n\nInsulation examples:\n[100] = B. Temp decrease fully stopped\n[50] = B. Temp decrease slowed by 50%\n[0] = B. Temp decreases at default rate": "Valor de protección térmica basado en la ropa contra el frío.\n\nEl aislamiento está vinculado al vital Temp. Corporal, donde el aislamiento reduce la velocidad de descenso de la Temp. Corporal en invierno.\n\nEl aislamiento aumenta al equipar ropa con estadística de aislamiento positiva.\n\nEjemplos de aislamiento:\n[100] = Descenso de T. Corp. completamente detenido\n[50] = Descenso de T. Corp. reducido un 50%\n[0] = T. Corp. desciende a velocidad normal",
+  "A clothing-based thermal protection value against cold.\n\nInsulation is linked to Body Temp vital, where Insulation reduces Body Temp decrease speed in Winter.\n\nInsulation increases when you equip clothing items with a positive insulation stat.\n\nInsulation examples:\n[100] = B. Temp decrease fully stopped\n[50] = B. Temp decrease slowed by 50%\n[0] = B. Temp decreases at default rate": "Valor de protección térmica basado en la ropa contra el frío.\n\nEl aislamiento está vinculado al vital Temp. Corporal, donde el aislamiento reduce la velocidad de descenso de la Temp. Corporal en invierno.\n\nEl aislamiento aumenta al equipar ropa con estadística de aislamiento positiva.\n\nEjemplos de aislamiento:\n[100] = Descenso de T. Corp. completamente detenido\n[50] = Descenso de T. Corp. reducido un 50%\n[0] = T. Corp. desciende a velocidad normal",
   "A condion where you have a minor bleeding from small cuts or scrapes.\n\nCauses: \n- Weapon damage\n- Explosion damage\n- Fall damage\n- Razor wire\n\nSymptoms:\n- Health [-1 unit / 5 sec]\n\nCures: \n- Bandage\n- Tourniquet\n- Medkit\n- IFAK / AFAK": "Condición con sangrado leve por cortes o raspaduras.\n\nCausas:\n- Daño de arma\n- Daño de explosión\n- Daño de caída\n- Alambre de cuchilla\n\nSíntomas:\n- Salud [-1 / 5 seg]\n\nCuras:\n- Vendaje\n- Torniquete\n- Kit Médico\n- IFAK / AFAK",
   "A condition where toxic substance entered your digestion or lungs.\n\nCauses:\n- Chemical damage\n- Toxic consumables\n\nSymptoms:\n- Health [-1 unit / 2 sec]\n\nCures:\n- Medkit\n- AFAK": "Condición donde una sustancia tóxica entró en la digestión o pulmones.\n\nCausas:\n- Daño químico\n- Consumibles tóxicos\n\nSíntomas:\n- Salud [-1 / 2 seg]\n\nCuras:\n- Kit Médico\n- AFAK",
   "A condition where you are carrying too much weight and movement becomes unsustainable.\n\nCauses:\n- Inventory Weight > Carry Capacity\n\nSymptoms\n- All stamina consumption [+50%]\n- All stamina regeneration [Blocked]\n- Movement speed [-50%]\n- Jump height [-50%]\n\nCures:\n- Inventory Weight < Carry Capacity": "Condición donde cargas demasiado peso y el movimiento se vuelve insostenible.\n\nCausas:\n- Peso inventario > Capacidad de carga\n\nSíntomas:\n- Consumo de stamina [+50%]\n- Regeneración de stamina [Bloqueada]\n- Velocidad de movimiento [-50%]\n- Altura de salto [-50%]\n\nCuras:\n- Peso inventario < Capacidad de carga",
@@ -513,6 +513,7 @@
   "Grip": "Agarre",
   "Ground": "Suelo",
   "Guard": "Guardia",
+  "Gum": "Chicle",
   "Guitar": "Guitarra",
   "Gunsmith": "Gunsmith",
   "Gutter": "Canalón",
@@ -563,13 +564,13 @@
   "Hoodie B.": "Sudadera B.",
   "Hoodie BZ.": "Sudadera ZF.",
   "Hookstrip": "Tira de gancho",
-  "Hotplate": "Placa calefactora",
+  "Hotplate": "Hornillo",
   "Hunt": "Cazar",
   "Hybrid": "Híbrido",
   "Hybrid, OZ5, Leopard, Magazine": "Híbrido, OZ5, Leopard, Cargador",
   "Hybrid, OZ5, Leopard, Magazine, Batteries, ACOG": "Híbrido, OZ5, Leopard, Cargador, Baterías, ACOG",
-  "Hydration": "Hidratación",
-  "Hydration:": "Hidratación:",
+  "Hydration": "Sed",
+  "Hydration:": "Sed:",
   "Hypothermia": "Hipotermia",
   "I'm tired of this shithole. I'm planning to take a one-way road trip to North and leave all this misery behind. \n\nHave you ever visited North? What a shame, that place has remain totally unaffected from all this bullshit, it's like nothing ever happened there. I'm talking about pristine nature, wildlife and crystal clear rivers for catching those juicy arctic trouts.\n\nI would be already driving there but those filthy Bandits stole my car battery and bunch of other items from the trunk, so I'm still stuck here.\n\nMaybe you could help me with this? Bring back my stolen items and I have something special for you.": "Estoy harto de este agujero infernal. Planeo hacer un viaje de ida hacia el Norte y dejar toda esta miseria atrás.\n\n¿Has visitado el Norte alguna vez? Qué pena, ese lugar se ha mantenido totalmente ajeno a toda esta porquería, como si nada hubiera pasado allí. Hablo de naturaleza prístina, fauna salvaje y ríos cristalinos para pescar esas sabrosas truchas árticas.\n\nYa estaría conduciendo hasta allá, pero esos malditos Bandidos me robaron la batería del coche y un montón de cosas del maletero, así que sigo atascado aquí.\n\n¿Podrías ayudarme? Tráeme mis objetos robados y tengo algo especial para ti.",
   "ID invalid -> Format all": "ID inválido -> Formatear todo",
@@ -623,7 +624,7 @@
   "Inventory Weight": "Peso de inventario",
   "Inverted": "Invertido",
   "Inverted\n": "Invertido\n",
-  "Inverter": "Inverter",
+  "Inverter": "Inversor",
   "Item": "Item",
   "Item Frozen: ": "Item Frozen: ",
   "Item Melted: ": "Item Melted: ",
@@ -933,7 +934,7 @@
   "Pause": "Pausa",
   "Pea Soup": "S. guisantes",
   "Peaches": "Melocotones",
-  "Peanuts": "Cacahuetes",
+  "Peanuts": "Mani",
   "Pear": "Pera",
   "Peas": "Guisantes",
   "Penetration": "Penetración",
@@ -1249,7 +1250,7 @@
   "Tax": "IVA",
   "Tax:": "IVA:",
   "Television": "Televisor",
-  "Temperature": "Temperatura",
+  "Temperature": "Calor",
   "Template": "Template",
   "Tent": "Tienda",
   "Terrain not assigned!": "¡Terreno no asignado!",
@@ -1772,5 +1773,19 @@
 	"Guaranteed": "Garantizado",
 	"Dynamic Event": "Evento dinámico",
 	"Sleep (Random sleep: 6-12h)": "Dormir (aleatorio: 6-12h)"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
