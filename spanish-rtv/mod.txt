@@ -6,3 +6,6 @@ version="1.0.0"
 [autoload]
 RtvEsConfig="res://spanish-rtv/Config.gd"
 RtvEs="res://spanish-rtv/Main.gd"
+
+[updates]
+modworkshop=
