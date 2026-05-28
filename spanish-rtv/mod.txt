@@ -8,4 +8,4 @@ RtvEsConfig="res://spanish-rtv/Config.gd"
 RtvEs="res://spanish-rtv/Main.gd"
 
 [updates]
-modworkshop=
+modworkshop=57147
