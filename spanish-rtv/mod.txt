@@ -1,11 +1,11 @@
 [mod]
 name="Spanish-RTV - Traducción al Español"
-id="spanish-rtv"
+id="spanish_rtv"
 version="1.1.0"
  
 [autoload]
-RtvEsConfig="res://spanish-rtv/Config.gd"
-RtvEs="res://spanish-rtv/Main.gd"
+RtvEsConfig="res://spanish_rtv/Config.gd"
+RtvEs="res://spanish_rtv/Main.gd"
 
 [updates]
 modworkshop=57147
