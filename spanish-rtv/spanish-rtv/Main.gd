@@ -1,6 +1,6 @@
 extends Node
 
-const FILE_PATH  = "res://spanish-rtv/translations/spanish.json"
+const FILE_PATH  = "res://spanish_rtv/translations/spanish.json"
 
 # Defaults
 const DEF_ENABLED = true
