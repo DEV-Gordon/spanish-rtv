@@ -59,6 +59,9 @@ El `.json` de DIO-KAMI fue la referencia principal para entender qué claves exp
 **[DjEVM](https://modworkshop.net/mod/56111)** — [Russian] Road to Vostok Русификатор  
 El script `.gd` adaptado y optimizado por DjEVM para activar el mod fue la base técnica del injector usado en esta traducción, de la misma forma en que DjEVM acredita a DIO-KAMI como origen de ese script.
 
+**[Sokol1](https://modworkshop.net/mod/57325)** — Tradução (Localização) para Português (Brasil)
+Hizo importantes aportes en la elaboracion de este mod, mientras preparaba la version para la comunidad de habla portugueza, compartio los avances que hacia en su json en tema de misiones, elementos varios y problemas que habia, sin el muchas partes de este mod aun estarian verdes.
+
 ---
 
 ## Compatibilidad
