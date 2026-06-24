@@ -2,8 +2,8 @@ extends Node
 
 var McmHelpers = preload("res://ModConfigurationMenu/Scripts/Doink Oink/MCM_Helpers.tres")
 
-const MOD_ID    = "spanish-rtv"
-const FILE_PATH = "user://MCM/spanish-rtv"
+const MOD_ID    = "spanish_rtv"
+const FILE_PATH = "user://MCM/spanish_rtv"
 
 func _ready():
 	var _config = ConfigFile.new()
